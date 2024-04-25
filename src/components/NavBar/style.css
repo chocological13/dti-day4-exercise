@@ -1,9 +1,14 @@
 .NavBar {
-    width: 85%;
+    width: 85vw;
     display: flex;
     justify-content: space-between;
-    border: 1px solid;
-    margin: auto;
+    background: transparent;
+    position: absolute;
+    top: 26px;
+    right: 50%;
+    transform: translateX(50%);
+    /* font styling */
+
 }
 
 .nav-right {
