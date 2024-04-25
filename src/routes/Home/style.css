@@ -66,3 +66,38 @@ body {
     line-height: 37.8px;
     text-align: left;
 }
+
+.recent-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.url-text {
+    /* font-family: Inter; */
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72.61px;
+    text-align: left;
+    height: 73px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.role-text {
+    height: 29px;
+    margin-bottom: 0;
+    /* font-family: Neue Montreal; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+
+}
+
+.work-icon img {
+    width: 85px;
+}
+
+.work-icon:hover img {
+    content: url('../../assets/arrow-dark.png');
+}

@@ -1,4 +1,5 @@
 import "../style.css";
+import arrowLight from "../../../assets/arrow-light.png";
 
 const About: React.FC = () => {
   const DATA = [
@@ -30,7 +31,7 @@ const About: React.FC = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatibus a consequatur minus amet et sapiente consectetur, fuga facere autem excepturi vero! Et, quidem perspiciatis. Earum consequuntur eveniet necessitatibus nam.</p>
         </div>
       </div>
-      <div className="about-recent">
+      <div className="about-1">
         <div className="about-title">
           <h3>Recent Work</h3>
         </div>
@@ -48,10 +49,15 @@ export default About;
 
 const RecentWork = ({ url, role }: { url: string; role: string }) => {
   return (
-    <div>
-      <div>
-        <p>{url}</p>
-        <p>{role}</p>
+    <div className="recent-container">
+      <div className="url-role">
+        <p className="url-text">{url}</p>
+        <p className="role-text">{role}</p>
+      </div>
+      <div className="work-icon">
+        <a href="">
+          <img src={arrowLight} alt="arrow" />
+        </a>
       </div>
     </div>
   );
