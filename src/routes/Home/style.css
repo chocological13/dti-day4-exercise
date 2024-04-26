@@ -35,17 +35,29 @@ body {
   color: white;
 }
 
+/* CTA Button */
+
 .cta-button {
   width: 358px;
   height: 95px;
   background-color: black;
   border-radius: 99px 0 0 99px;
   position: absolute;
-  right: 0;
+  right: -17%;
   top: 50%;
   transform: translateY(-50%);
   overflow: hidden;
   display: flex;
+}
+
+.cta-button:hover {
+  right: 0;
+  transition: 1s;
+}
+
+.cta-button:not(:hover) {
+  right: -17%;
+  transition: 1s;
 }
 
 .cta-button p {
