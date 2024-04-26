@@ -6,6 +6,11 @@ const Hero: React.FC = () => {
     <div className="hero-section">
       <img src={Portrait} alt="portrait" />
       <p className="hero-title">Webflow Developer - UI/UX</p>
+      <div className="cta-button">
+        <p>
+          👋<span> Hi I'm Ayush!</span>
+        </p>
+      </div>
     </div>
   );
 };

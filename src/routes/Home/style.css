@@ -1,103 +1,130 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    width: 100vw;
-    overflow-x: hidden;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 /* Hero */
 
 .hero-section {
-    width: 100vw;
-    height: 100vh;
-    background-color: #c7c0d9;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+  width: 100vw;
+  height: 100vh;
+  background-color: #c7c0d9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .hero-section img {
-    width: 501px;
-    height: 654px;
+  width: 501px;
+  height: 654px;
+  position: relative;
 }
 
 .hero-title {
-    width: 120vw;
-    font-size: 150.38px;
-    font-weight: 500;
-    line-height: 180.45px;
-    text-align: left;
-    position: absolute;
-    color: white;
+  width: 120vw;
+  font-size: 150.38px;
+  font-weight: 500;
+  line-height: 180.45px;
+  text-align: left;
+  position: absolute;
+  color: white;
+}
+
+.cta-button {
+  width: 358px;
+  height: 95px;
+  background-color: black;
+  border-radius: 99px 0 0 99px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+  display: flex;
+}
+
+.cta-button p {
+  font-size: 60px;
+  margin-left: 15px;
+}
+
+.cta-button p > span {
+  /* font-family: Neue Montreal; */
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  color: white;
 }
 
 /* About */
 
 .about {
-    width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 160px;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
 }
 
 .about-1 {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    margin-top: 160px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 160px;
 }
 
 .about-title {
-    /* font-family: Neue Montreal; */
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 48px;
-    text-align: left;
+  /* font-family: Neue Montreal; */
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
 }
 
 .about-text {
-    /* font-family: Neue Montreal; */
-    font-size: 27px;
-    font-weight: 400;
-    line-height: 37.8px;
-    text-align: left;
+  /* font-family: Neue Montreal; */
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 37.8px;
+  text-align: left;
 }
 
 .recent-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.url-text {
-    /* font-family: Inter; */
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 72.61px;
-    text-align: left;
-    height: 73px;
-    margin-top: auto;
-    margin-bottom: auto;
+.url-text a {
+  /* font-family: Inter; */
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72.61px;
+  text-align: left;
+  height: 73px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .role-text {
-    height: 29px;
-    margin-bottom: 0;
-    /* font-family: Neue Montreal; */
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28.8px;
-    text-align: left;
-
+  height: 29px;
+  margin-bottom: 0;
+  /* font-family: Neue Montreal; */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
 }
 
 .work-icon img {
-    width: 85px;
+  width: 85px;
 }
 
 .work-icon:hover img {
-    content: url('../../assets/arrow-dark.png');
+  content: url("../../assets/arrow-dark.png");
 }

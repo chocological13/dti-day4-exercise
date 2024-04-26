@@ -51,7 +51,9 @@ const RecentWork = ({ url, role }: { url: string; role: string }) => {
   return (
     <div className="recent-container">
       <div className="url-role">
-        <p className="url-text">{url}</p>
+        <p className="url-text">
+          <a href={`https://${url}`}>{url}</a>
+        </p>
         <p className="role-text">{role}</p>
       </div>
       <div className="work-icon">
