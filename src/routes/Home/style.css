@@ -255,3 +255,83 @@ body {
   line-height: 22.4px;
   text-align: left;
 }
+
+/* Footer */
+
+.footer {
+  width: 100vw;
+  height: 440px;
+  background-color: black;
+  position: relative;
+}
+
+.get-in-touch {
+  width: 80vw;
+  position: absolute;
+  top: 80px;
+  right: 50%;
+  transform: translateX(50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.touch-text {
+  /* font-family: Neue Montreal; */
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 72px;
+  text-align: left;
+  color: #f4f7fa;
+}
+
+.touch-text p {
+  margin-bottom: 10px;
+}
+
+.touch-text p > span {
+  position: relative;
+  bottom: 20px;
+}
+
+button {
+  width: 190px;
+  height: 70px;
+  top: 135px;
+  left: 1162px;
+  padding: 24px 48px 24px 48px;
+  gap: 10px;
+  border-radius: 170px;
+  border: none;
+  opacity: 0px;
+  background-color: #f4f7fa;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  position: absolute;
+  bottom: 33px;
+  right: 50%;
+  transform: translateX(50%);
+  color: #f4f7fa;
+}
+
+.socials-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.socials-links {
+  color: #f4f7fa;
+  text-decoration: none;
+}
