@@ -2,6 +2,7 @@ import NavBar from "../../components/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Work from "./components/Work";
+import Testimonials from "./components/Testimonials";
 
 const Home: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Home: React.FC = () => {
       <Hero />
       <About />
       <Work />
+      <Testimonials />
     </div>
   );
 };

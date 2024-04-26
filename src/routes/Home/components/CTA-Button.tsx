@@ -1,5 +1,4 @@
 import "../style.css";
-import Menu from "./Menu";
 
 const CTAButton: React.FC = () => {
   return (
@@ -7,7 +6,7 @@ const CTAButton: React.FC = () => {
       <p>
         👋
         <span>
-          <a href={Menu}>Hi I'm Ayush!</a>
+          <a href="">Hi I'm Ayush!</a>
         </span>
       </p>
     </div>

@@ -1,12 +1,37 @@
 import "../style.css";
-import workRowTop from "../../../assets/work-row-top.png";
-import workRowBot from "../../../assets/work-row-bot.png";
+import work from "../../../assets/work.png";
 
 const Work: React.FC = () => {
   return (
-    <div className="work-container">
-      <img src={workRowTop} alt="work row top" />
-      <img src={workRowBot} alt="work row bot" />
+    <div className="work">
+      <div className="work-row">
+        <div className="work-container">
+          <img src={work} alt="work" />
+        </div>
+        <div className="work-container">
+          <img src={work} alt="work" />
+        </div>
+        <div className="work-container">
+          <img src={work} alt="work" />
+        </div>
+        <div className="work-container">
+          <img src={work} alt="work" />
+        </div>
+      </div>
+      <div className="work-row">
+        <div className="work-container">
+          <img src={work} alt="work" />
+        </div>
+        <div className="work-container">
+          <img src={work} alt="work" />
+        </div>
+        <div className="work-container">
+          <img src={work} alt="work" />
+        </div>
+        <div className="work-container">
+          <img src={work} alt="work" />
+        </div>
+      </div>
     </div>
   );
 };
