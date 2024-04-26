@@ -65,13 +65,14 @@ body {
   margin-left: 15px;
 }
 
-.cta-button p > span {
+.cta-button p > span > a {
   /* font-family: Neue Montreal; */
   font-size: 40px;
   font-weight: 500;
   line-height: 48px;
   text-align: left;
   color: white;
+  text-decoration: none;
 }
 
 /* About */
