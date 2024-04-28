@@ -6,7 +6,7 @@ const CTAButton: React.FC = () => {
       <p>
         👋
         <span>
-          <a href="contact">Hi I'm Ayush!</a>
+          <a href="">Hi I'm Ayush!</a>
         </span>
       </p>
     </div>

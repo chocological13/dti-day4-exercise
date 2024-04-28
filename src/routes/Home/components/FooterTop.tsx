@@ -11,7 +11,9 @@ const FooterTop: React.FC = () => {
           <span> let's build it together.</span>
         </p>
       </div>
-      <button type="button">Get In Touch</button>
+      <button type="button">
+        <a href="contact">Get In Touch</a>
+      </button>
     </div>
   );
 };
