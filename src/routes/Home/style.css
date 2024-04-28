@@ -293,8 +293,8 @@ body {
   bottom: 20px;
 }
 
-button {
-  width: 190px;
+.get-in-touch button {
+  width: fit-content;
   height: 70px;
   top: 135px;
   left: 1162px;
@@ -306,6 +306,7 @@ button {
   background-color: #f4f7fa;
   margin-top: auto;
   margin-bottom: auto;
+  color: black;
 }
 
 .socials {
