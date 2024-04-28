@@ -57,7 +57,7 @@ const RecentWork = ({ url, role }: { url: string; role: string }) => {
         <p className="role-text">{role}</p>
       </div>
       <div className="work-icon">
-        <a href="">
+        <a href={`https://${url}`}>
           <img src={arrowLight} alt="arrow" />
         </a>
       </div>

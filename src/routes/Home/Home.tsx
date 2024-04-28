@@ -4,6 +4,8 @@ import About from "./components/About";
 import Work from "./components/Work";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import FooterTop from "./components/FooterTop";
+import "../Home/style.css";
 
 const Home: React.FC = () => {
   return (
@@ -13,7 +15,10 @@ const Home: React.FC = () => {
       <About />
       <Work />
       <Testimonials />
-      <Footer />
+      <div className="footer">
+        <FooterTop />
+        <Footer />
+      </div>
     </div>
   );
 };
