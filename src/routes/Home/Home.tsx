@@ -17,7 +17,9 @@ const Home: React.FC = () => {
       <Testimonials />
       <div className="footer">
         <FooterTop />
-        <Footer />
+        <div className="footer-bot">
+          <Footer />
+        </div>
       </div>
     </div>
   );

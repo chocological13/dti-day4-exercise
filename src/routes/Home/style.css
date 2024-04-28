@@ -313,10 +313,6 @@ body {
   display: flex;
   justify-content: space-between;
   width: 80vw;
-  position: absolute;
-  bottom: 33px;
-  right: 50%;
-  transform: translateX(50%);
   color: #f4f7fa;
 }
 
@@ -335,4 +331,11 @@ li {
 .socials-links {
   color: #f4f7fa;
   text-decoration: none;
+}
+
+.footer-bot {
+  position: absolute;
+  bottom: 33px;
+  right: 50%;
+  transform: translateX(50%);
 }
